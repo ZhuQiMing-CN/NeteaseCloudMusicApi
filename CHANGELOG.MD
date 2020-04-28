@@ -1,4 +1,71 @@
 # 更新日志
+### 3.27.0 | 2020.04.20
+- 新增购买专辑接口 by [TimonPeng](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/740)
+
+### 3.26.0 | 2020.04.08
+#### Breaking change
+- 更新歌手分类列表接口参数,因`cat`参数失效,调整为`type`和`area`参数
+
+### 3.25.4 | 2020.03.18
+- 更新歌词,歌手分类列表接口
+
+- 更新文档
+
+### 3.25.3 | 2019.11.08
+- 升级依赖,去除多余依赖
+
+- 优化 `test.html`
+
+### 3.25.2 | 2019.11.07
+- 修复邮箱登录状态码错误,增加相关提示 [#633](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/633)
+
+### 3.25.0 | 2019.11.06
+- 新增 `云村热评` 接口[#626](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/626)
+
+- 新增 `歌手热门50首歌曲` 接口 
+
+- 新增`电台24小时节目榜`,`电台24小时主播榜`, `电台最热主播榜`,`电台主播新人榜`,`电台付费精品榜` 接口 [#606](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/606)
+
+- 调整 `歌手分类列表 ` 接口参数 [#624](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/624)
+
+### 3.24.2 | 2019.10.28
+- 修改默认绑定 HOST [#620](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/620)
+
+### 3.24.1 | 2019.10.25
+- 修改默认绑定 HOST [#615](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/615)
+
+### 3.24.0 | 2019.10.22
+- 新增`类别热门电台` 接口 [#607](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/607)
+
+### 3.23.0 | 2019.10.16
+- 修复电台 banner 接口无数据问题[#601](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/601)
+
+- 更新排行榜 [#602](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/602)
+
+- 新增`电台排行榜`,`新晋电台榜`,`热门电台榜`接口 [#604](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/604)
+
+### 3.22.4 | 2019.09.26
+- 修复私信历史记录分页参数问题,更新文档 [#599](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/599)
+
+### 3.22.3 | 2019.09.24
+- 手机号码检测： 添加国家码作为参数，方便检测国外手机号码 [#598](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/598)
+
+### 3.22.2 | 2019.09.18
+- 排行榜参数更新,更新文档[#592](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/592)
+
+### 3.22.1 | 2019.09.12
+- 支持回复评论[#589](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/589)
+
+
+### 3.22.0 | 2019.08.25
+- 支持 CORS 预检 [#564](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/564) [#578](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/578)
+
+### 3.21.1 | 2019.08.21
+- 修复推荐歌单和网易出品mv参数错误,更新文档 [#571](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/571) [#572](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/572) 
+
+### 3.21.0 | 2019.08.20
+- 新增`歌单删除接口`[#570](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/570)
+
 ### 3.20.0 | 2019.08.06
 - 新增`更新歌单描述`,`更新歌单名`,`更新歌单标签`,`默认搜索关键词` 接口,更新文档[#547](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/547)
 
